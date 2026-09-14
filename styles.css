@@ -1,0 +1,29 @@
+/* Layout only. Colors, fonts, and the status bar stay with the active theme (for example Border). */
+
+.oe-guide-modal {
+  width: min(44rem, 92vw);
+}
+
+.oe-guide-modal .modal-content {
+  max-height: 75vh;
+  overflow-y: auto;
+}
+
+.oe-guide h2,
+.oe-guide-body h2 {
+  font-size: 1.15em;
+  margin-top: 1.5em;
+  margin-bottom: 0.4em;
+}
+
+.oe-guide h2:first-child,
+.oe-guide-body h2:first-child {
+  margin-top: 0.15em;
+}
+
+.oe-guide p,
+.oe-guide li,
+.oe-guide-body p,
+.oe-guide-body li {
+  line-height: 1.55;
+}

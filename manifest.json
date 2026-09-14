@@ -1,0 +1,10 @@
+{
+  "id": "vault-cloak",
+  "name": "Vault Cloak",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Hides your Markdown notes on disk so cloud and antivirus scanners are less likely to flag study notes, while you keep editing them normally in Obsidian.",
+  "author": "nsr0776",
+  "authorUrl": "https://github.com/nsr0776",
+  "isDesktopOnly": false
+}

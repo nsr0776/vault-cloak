@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# build output (Obsidian loads these from a vault plugin folder)
+main.js
+*.map
+build/
+
+# machine-local vaults and scratch files
+/local/
+
+# generated plugin copies inside the sample vault
+test-vault/.obsidian/workspace.json
+test-vault/.obsidian/workspace-mobile.json
+test-vault/.obsidian/plugins/vault-cloak/main.js
+test-vault/.obsidian/plugins/vault-cloak/manifest.json
+test-vault/.obsidian/plugins/vault-cloak/styles.css
+test-vault/.obsidian/plugins/vault-cloak/data.json
+
+# plugin secrets
+data.json
+**/.obsidian/plugins/*/data.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
